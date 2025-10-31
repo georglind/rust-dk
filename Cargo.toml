@@ -1,4 +1,10 @@
 [workspace]
 members = [
-    "rust_proc_macro"
+    "rust_procedure_makro",
+    "examples"
 ]
+
+[package]
+edition = "2021"
+name="rust-dk-wrapper"
+version="0.1.0"
