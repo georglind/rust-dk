@@ -52,9 +52,9 @@ rust::rust! {
 
         sammenlign x {
             42 => {
-                skrivlinje!("stegt flæsk")
+                udskrivlinje!("stegt flæsk")
             }
-            _ => skrivlinje!("persillesovs")
+            _ => udskrivlinje!("persillesovs")
         }
 
         for j i 0..10 {
